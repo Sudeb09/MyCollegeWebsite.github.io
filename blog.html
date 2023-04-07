@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website Design</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-----Header Section----->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2023</h1>
+    </section>
+    <!-----------Blog Page Contet--------------->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg">
+                <h2>Our Certificate & Online Programs For 2023</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quas sequi incidunt obcaecati recusandae consequatur ad aliquid iure asperiores veniam. Quidem assumenda ex animi nostrum beatae aliquam architecto nobis quas. Corporis ullam sit voluptate excepturi incidunt sunt iusto tempore nihil, facilis illum soluta at saepe commodi, voluptatem earum odit. Aliquam necessitatibus perspiciatis commodi possimus delectus, modi vitae quae ad earum.</p>
+                <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima optio quidem facilis iure est eos ea architecto? Error esse aliquid, est mollitia dolore aliquam cum. Eligendi dolore molestiae voluptas impedit minima, omnis maxime alias, quos repellat quaerat laboriosam id quo illo quae voluptates laudantium, eius velit consequatur! Doloribus, quas maiores et voluptate consequatur animi dolorem quae libero, dicta, at illum?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci, nihil tempora. Quaerat, quia provident. Fuga incidunt culpa sapiente iusto veniam obcaecati id sunt sit voluptates placeat rerum dolorem amet pariatur dignissimos minus recusandae autem quia, neque fugiat illum, blanditiis iure unde. Aperiam beatae vitae aliquam, dolorem quasi eligendi modi labore.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis autem commodi nam, molestias fuga aut magni, fugiat nisi quae, tempora aspernatur architecto. Deserunt, facere. Impedit consequuntur dicta, fugiat iusto beatae illo, illum reprehenderit adipisci tenetur itaque voluptas. Libero est harum perspiciatis totam ipsam veritatis odio quidem voluptatum, ad pariatur quos.</p>
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Your Name">
+                        <input type="email" placeholder="Enter Your Email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Catagories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>25</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>30</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Internet On Things</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Artifitial Iniligence</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---------Footer---------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique adipisci est dolorum<br> Unde delectus rerum illo sunt dolores, commodi eligendi labore</p>
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        <p>Made With <i class="fa fa-heart"></i> By Sudeb</p>
+    </section>
+    
+
+
+
+    <!-------------JAVASCRIPT PART-------------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-150px";
+        }
+    </script>
+</body>
+</html>
